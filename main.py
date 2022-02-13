@@ -2,11 +2,9 @@ from random import randint
 from tkinter import *
 from tkinter.messagebox import showerror, showinfo
 
-import time
 import requests
 # 开头先定义颜色变量，可以省去查询的步骤
-color_red = "#5bba41"
-#5bba41
+color_red = "#1d73ff"
 color_blue = "#188eff"
 
 def get_ssq() -> dict:
