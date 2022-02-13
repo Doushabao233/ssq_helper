@@ -5,7 +5,8 @@ from tkinter.messagebox import showerror, showinfo
 import time
 import requests
 # 开头先定义颜色变量，可以省去查询的步骤
-color_red = "#ff5e5e"
+color_red = "#5bba41"
+#5bba41
 color_blue = "#188eff"
 
 def get_ssq() -> dict:
