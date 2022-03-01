@@ -84,12 +84,12 @@ def select_window():
 
     # 红球展示的文字
     lott_red_text = Label(window_choose, text='请点击按钮',\
-                          font=('华文琥珀', 20), fg=color_red, height=2)
+                        font=('华文琥珀', 20), fg=color_red, height=2)
     lott_red_text.grid(row=0, column=0, padx=10, pady=10)
 
     # 蓝球展示的文字
     lott_blue_text = Label(window_choose, text='摇号吧~', \
-                           font=('华文琥珀', 20), fg=color_blue)
+                        font=('华文琥珀', 20), fg=color_blue)
     lott_blue_text.grid(row=0, column=1, padx=10, pady=10)
 
     # 设计的界面中也要有连续出号的选项
@@ -105,7 +105,7 @@ def select_window():
 
     # 把这个按钮跟那个封装的函数绑起来，点了就执行那个
     start = Button(window_choose, text='开始摇号', command=update_label,\
-                   height=2, font=('等线', 15))
+                    height=2, font=('等线', 15))
     start.grid(row=2, column=0, columnspan=2, padx=10, pady=10)
 
 
@@ -164,8 +164,8 @@ def check_window():
     window_check.resizable(False, False)
     window_check.title('彩票助手 - 查彩')
     input_tips = Label(window_check, \
-                       text='请输入红球和蓝球 数字之间空格隔开',\
-                       font=('等线', 15))
+                        text='请输入红球和蓝球 数字之间空格隔开',\
+                        font=('等线', 15))
     
     # 本来想挨个数字都一个输入框的，但是做起来很麻烦
     # 有时候为了一些目标，你总要舍弃一些，对吧？
@@ -175,7 +175,7 @@ def check_window():
 
     # 完成按钮
     ok_button = Button(window_check, text='查询中奖情况', \
-                       font=('等线', 16), command=check_lottery)
+                        font=('等线', 16), command=check_lottery)
 
     # 排列位置
     input_tips.grid(row=0, column=0, columnspan=2, padx=10, pady=10)
