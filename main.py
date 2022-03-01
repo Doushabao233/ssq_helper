@@ -153,7 +153,6 @@ def check_window():
                 else:
                     showinfo('很抱歉', '这次彩票并没有中奖，若认为结果有误，可前往首页查看')
         except IndexError:
-            # 我就好奇了哪个人会乱按，烦死了
             showerror('出错了', '你输入的内容有误')
         finally:
             # 最后关窗口，不为别的，就是觉得得关掉
