@@ -4,8 +4,8 @@ from tkinter.messagebox import showerror, showinfo
 
 import requests
 # 开头先定义颜色变量，可以省去查询的步骤
-color_red = "#ff8e8e"
-color_blue = "#188eff"
+color_red = '#ff8e8e'
+color_blue = '#188eff'
 
 def get_ssq() -> dict:
     # 获取双色球号码【核心】
